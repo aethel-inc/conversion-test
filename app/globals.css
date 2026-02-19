@@ -1,13 +1,8 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Required for proper layout */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html,
@@ -16,27 +11,22 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+/*
+ * Override Webflow font-family CSS variables to use next/font CSS variables.
+ * This ensures fonts are loaded optimally via Next.js font system while
+ * preserving the Webflow CSS variable references throughout the stylesheet.
+ *
+ * Primary font: Geist (used for headings, UI elements)
+ * Secondary font: Inter Display (used for body text, descriptions)
+ * Tertiary font: Faculty Glyphic (used for special display text)
+ */
+:root {
+  --_base-collection---font-family--primary-font: var(--font-geist), sans-serif;
+  --_base-collection---font-family--secondary-font: var(--font-inter-display), Arial, sans-serif;
+  --_base-collection---font-family--tertiary-font: var(--font-faculty-glyphic), sans-serif;
 }

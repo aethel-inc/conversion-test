@@ -116,4 +116,96 @@ export const homeContent: HomeContent = {
       },
     ],
   },
+  sectionDivider: {
+    image: {
+      src: '/images/home/section-divider.svg',
+      alt: '', // Decorative divider — empty alt is intentional
+      width: 1200,
+      height: 24,
+    },
+  },
+  devCloud: {
+    headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
+    headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text
+    topBorderImage: {
+      src: '/images/home/collection-top-border.svg',
+      alt: '', // Decorative border — empty alt is intentional
+      width: 1200,
+      height: 16,
+    },
+    tabs: [
+      {
+        tabLabel: 'Data Collection', // TODO:CONTENT - Replace with client tab label
+        title: 'Data Collection & Integration', // TODO:CONTENT - Replace with client tab title
+        description:
+          'We gather data from multiple sources websites, platforms, analytics tools, CRMs, and more and unify it into one clean, structured system.', // TODO:CONTENT - Replace with client tab description
+        backgroundImage: {
+          src: '/images/home/collection-bg.avif',
+          alt: 'Blurred image of a person working on a computer with bright screen light in a dark room.',
+          width: 800,
+          height: 500,
+        },
+        coverImage: {
+          src: '/images/home/collection-data-collection.avif',
+          alt: 'Diagram showing data flow from Agents, Developers, and Users into a container labeled with Developers Data, Agents Data, Users Data, and Resource Data.',
+          width: 800,
+          height: 500,
+        },
+      },
+      {
+        tabLabel: 'Cleaning & Preparation', // TODO:CONTENT - Replace with client tab label
+        title: 'Cleaning & Preparation', // TODO:CONTENT - Replace with client tab title
+        description:
+          'We gather data from multiple sources websites, platforms, analytics tools, CRMs, and more and unify it into one clean, structured system.', // TODO:CONTENT - Replace with client tab description
+        backgroundImage: {
+          src: '/images/home/collection-bg.avif',
+          alt: 'Blurred image of a person working on a computer with bright screen light in a dark room.',
+          width: 800,
+          height: 500,
+        },
+        coverImage: {
+          src: '/images/home/collection-cleaning.avif',
+          alt: "Illustration of a document icon labeled 'Doc.x' surrounded by four circular icons with abstract symbols, all on a light background with browser window controls visible at the top left.",
+          width: 800,
+          height: 500,
+        },
+      },
+      {
+        tabLabel: 'Analysis & Insights', // TODO:CONTENT - Replace with client tab label
+        title: 'Analysis & Insights', // TODO:CONTENT - Replace with client tab title
+        description:
+          'We gather data from multiple sources websites, platforms, analytics tools, CRMs, and more and unify it into one clean, structured system.', // TODO:CONTENT - Replace with client tab description
+        backgroundImage: {
+          src: '/images/home/collection-bg.avif',
+          alt: 'Blurred image of a person working on a computer with bright screen light in a dark room.',
+          width: 800,
+          height: 500,
+        },
+        coverImage: {
+          src: '/images/home/collection-analysis-insights.avif',
+          alt: "Browser window mockup showing a process with 'Searched' for 'Stripe founders' and 'Read' items including Reteropiea, Jhumpy, and Default media, with options for Competitors and Q1 Web Traffic.",
+          width: 800,
+          height: 500,
+        },
+      },
+      {
+        tabLabel: 'Custom Dashboards', // TODO:CONTENT - Replace with client tab label
+        title: 'Custom Dashboards', // TODO:CONTENT - Replace with client tab title
+        description:
+          'We gather data from multiple sources websites, platforms, analytics tools, CRMs, and more and unify it into one clean, structured system.', // TODO:CONTENT - Replace with client tab description
+        backgroundImage: {
+          src: '/images/home/collection-bg.avif',
+          alt: 'Blurred image of a person working on a computer with bright screen light in a dark room.',
+          width: 800,
+          height: 500,
+        },
+        coverImage: {
+          src: '/images/home/collection-custom-dashboards.avif',
+          alt: 'Dashboard interface showing a data table with columns Title, Project, and Deadline, listing sample data testing, pro data example, data strategy, and analytics project with respective tags and due dates.',
+          width: 800,
+          height: 500,
+        },
+      },
+    ],
+  },
 };

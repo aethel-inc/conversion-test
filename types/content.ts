@@ -73,8 +73,42 @@ export interface HomeTrustedBrandsContent {
   logos: HomeTrustedBrandLogo[];
 }
 
+/** A single tab item in the DevCloud tabbed section */
+export interface HomeDevCloudTabItem {
+  /** The short label displayed on the tab button */
+  tabLabel: string;
+  /** The full title displayed in the tab content pane */
+  title: string;
+  /** Description text displayed below the title */
+  description: string;
+  /** Background image displayed behind the cover image */
+  backgroundImage: ImageContent;
+  /** Cover/overlay image displayed on top of the background */
+  coverImage: ImageContent;
+}
+
+/** Content for the decorative section divider between major sections */
+export interface HomeSectionDividerContent {
+  /** Path to the decorative SVG/image used as divider */
+  image: ImageContent;
+}
+
+/** Content for the "The cloud that works for developers" section */
+export interface HomeDevCloudContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** Decorative top border image inside the tab area */
+  topBorderImage: ImageContent;
+  /** Array of tab items — each represents one tab with its content */
+  tabs: HomeDevCloudTabItem[];
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
   trustedBrands: HomeTrustedBrandsContent;
+  sectionDivider: HomeSectionDividerContent;
+  devCloud: HomeDevCloudContent;
 }

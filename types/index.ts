@@ -8,6 +8,9 @@ export type {
   HomeHeroImageSectionContent,
   HomeTrustedBrandLogo,
   HomeTrustedBrandsContent,
+  HomeDevCloudTabItem,
+  HomeSectionDividerContent,
+  HomeDevCloudContent,
 } from './content';
 export type {
   NavDropdownItem,

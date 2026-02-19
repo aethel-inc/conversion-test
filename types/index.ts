@@ -13,6 +13,9 @@ export type {
   HomeDevCloudContent,
   HomeCollectedDataItem,
   HomeCollectedDataContent,
+  HomeAutomationProcessItem,
+  HomeAutomationBulletPoint,
+  HomeAutomationContent,
 } from './content';
 export type {
   NavDropdownItem,

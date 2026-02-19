@@ -137,6 +137,52 @@ export interface HomeCollectedDataContent {
   items: HomeCollectedDataItem[];
 }
 
+/** A single process card in the "Data and automation all in one place" section */
+export interface HomeAutomationProcessItem {
+  /** Unique identifier for the process card */
+  id: string;
+  /** Path to the icon SVG displayed at the top of the card */
+  icon: string;
+  /** Alt text for the icon (empty string if decorative) */
+  iconAlt: string;
+  /** Process title displayed as a heading */
+  title: string;
+  /** Brief description below the title */
+  description: string;
+  /** Text label for the CTA link */
+  ctaText: string;
+  /** Destination URL for the CTA link */
+  ctaHref: string;
+  /** Whether this card uses the alternate "v1" style variant */
+  variant?: boolean;
+}
+
+/** A single bullet point in the automation section's left column */
+export interface HomeAutomationBulletPoint {
+  /** The text content of the bullet point */
+  text: string;
+}
+
+/** Content for the "Data and automation all in one place" section */
+export interface HomeAutomationContent {
+  /** Small label text above the heading (e.g. "Data + automation") */
+  label: string;
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** Subheading text displayed below the main heading */
+  subheading: string;
+  /** Bullet points displayed below the subheading in the left column */
+  bulletPoints: HomeAutomationBulletPoint[];
+  /** Background/feature image displayed in the right column */
+  image: ImageContent;
+  /** Path to the arrow icon used in CTA buttons */
+  buttonArrowIcon: string;
+  /** Array of process cards displayed in the bottom grid */
+  processItems: HomeAutomationProcessItem[];
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
@@ -144,4 +190,5 @@ export interface HomeContent {
   sectionDivider: HomeSectionDividerContent;
   devCloud: HomeDevCloudContent;
   collectedData: HomeCollectedDataContent;
+  automation: HomeAutomationContent;
 }

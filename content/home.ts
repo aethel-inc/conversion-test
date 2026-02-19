@@ -163,6 +163,72 @@ export const homeContent: HomeContent = {
       },
     ],
   },
+  automation: {
+    label: 'Data + automation', // TODO:CONTENT - Replace with client section label
+    headingPrefix: 'Data and automation all in ', // TODO:CONTENT - Replace with client heading
+    headingHighlight: 'one place', // TODO:CONTENT - Replace with client highlight text
+    subheading:
+      'Disort integrates workflows and AI for seamless IT helpdesks and onboarding.', // TODO:CONTENT - Replace with client subheading
+    bulletPoints: [
+      {
+        text: 'Save time with automated workflows.', // TODO:CONTENT - Replace with client bullet point
+      },
+      {
+        text: 'Procurement that runs without delays.', // TODO:CONTENT - Replace with client bullet point
+      },
+    ],
+    image: {
+      src: '/images/home/automation-bg.avif',
+      alt: 'Blurred image of a person walking past rows of empty chairs with warm light streaks in the background.',
+      width: 800,
+      height: 500,
+    },
+    buttonArrowIcon: '/images/home/button-arrow-icon.svg',
+    processItems: [
+      {
+        id: 'revenue-decisions',
+        icon: '/images/home/automation-icon-01.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title:
+          'Drive Revenue with Faster Decisions and Fewer False Positives', // TODO:CONTENT - Replace with client process title
+        description: 'Create workflows with logic and AI.', // TODO:CONTENT - Replace with client process description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+      },
+      {
+        id: 'store-manage-data',
+        icon: '/images/home/automation-icon-02.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title:
+          'Store and manage data that powers your automations', // TODO:CONTENT - Replace with client process title
+        description: 'Create workflows with logic and AI.', // TODO:CONTENT - Replace with client process description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+        variant: true,
+      },
+      {
+        id: 'custom-interfaces',
+        icon: '/images/home/automation-icon-03.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title:
+          'Create custom interfaces anyone can use no coding required', // TODO:CONTENT - Replace with client process title
+        description: 'Create workflows with logic and AI.', // TODO:CONTENT - Replace with client process description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+      },
+      {
+        id: 'scale-workflows',
+        icon: '/images/home/automation-icon-04.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title:
+          'Scale from personal productivity to company-wide workflows', // TODO:CONTENT - Replace with client process title
+        description: 'Create workflows with logic and AI.', // TODO:CONTENT - Replace with client process description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+        variant: true,
+      },
+    ],
+  },
   devCloud: {
     headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
     headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text

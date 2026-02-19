@@ -446,6 +446,69 @@ export const homeContent: HomeContent = {
       secondary: '/images/home/slider-arrow-right-02.svg',
     },
   },
+  blogShowcase: {
+    headingPrefix: 'Where data meets ', // TODO:CONTENT - Replace with client heading
+    headingHighlight: 'Imagination', // TODO:CONTENT - Replace with client highlight text
+    readMoreArrowIcon: '/images/home/blog-read-more-arrow.svg',
+    featuredPost: {
+      id: 'deal-acceleration-tactics',
+      href: '/post/deal-acceleration-tactics-to-shorten-your-sales-cycle', // TODO:CONTENT - Replace with actual blog post URL
+      image: {
+        src: '/images/home/blog-featured-01.avif',
+        alt: 'Deal Acceleration Tactics to Shorten Your Sales Cycle.',
+        width: 800,
+        height: 500,
+      },
+      date: 'November 12, 2025', // TODO:CONTENT - Replace with actual publication date
+      title: 'Deal Acceleration Tactics to Shorten Your Sales Cycle.', // TODO:CONTENT - Replace with actual blog post title
+      authorName: 'Robert Chan', // TODO:CONTENT - Replace with actual author name
+      authorRole: 'Automotive Journalist', // TODO:CONTENT - Replace with actual author role
+      authorImage: {
+        src: '/images/home/blog-author-robert-chan.avif',
+        alt: 'Robert Chan, Automotive Journalist',
+        width: 48,
+        height: 48,
+      },
+    },
+    listPosts: [
+      {
+        id: 'emotional-intelligence-leadership',
+        href: '/post/why-emotional-intelligence-matters-in-leadership', // TODO:CONTENT - Replace with actual blog post URL
+        category: {
+          label: 'Trends', // TODO:CONTENT - Replace with actual category
+          backgroundColor: '#e8decf',
+          textColor: '#6d5e46',
+        },
+        title: 'Why Emotional Intelligence Matters in Leadership', // TODO:CONTENT - Replace with actual blog post title
+        authorName: 'Laura Gomez', // TODO:CONTENT - Replace with actual author name
+        authorRole: 'Executive Coach', // TODO:CONTENT - Replace with actual author role
+      },
+      {
+        id: 'cybersecurity-cloud-computing',
+        href: '/post/cybersecurity-in-the-age-of-cloud-computing', // TODO:CONTENT - Replace with actual blog post URL
+        category: {
+          label: 'Business', // TODO:CONTENT - Replace with actual category
+          backgroundColor: '#d1e6de',
+          textColor: '#548573',
+        },
+        title: 'Cybersecurity in the Age of Cloud Computing', // TODO:CONTENT - Replace with actual blog post title
+        authorName: 'Ahmed Khan', // TODO:CONTENT - Replace with actual author name
+        authorRole: 'IT Security Analyst', // TODO:CONTENT - Replace with actual author role
+      },
+      {
+        id: 'ux-design-secrets',
+        href: '/post/ux-design-secrets-how-to-keep-users-hooked', // TODO:CONTENT - Replace with actual blog post URL
+        category: {
+          label: 'Analysis', // TODO:CONTENT - Replace with actual category
+          backgroundColor: '#dfdeed',
+          textColor: '#4d4a7c',
+        },
+        title: 'UX Design Secrets: How to Keep Users Hooked', // TODO:CONTENT - Replace with actual blog post title
+        authorName: 'Emily Carter', // TODO:CONTENT - Replace with actual author name
+        authorRole: 'Lead UX Designer', // TODO:CONTENT - Replace with actual author role
+      },
+    ],
+  },
   devCloud: {
     headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
     headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text

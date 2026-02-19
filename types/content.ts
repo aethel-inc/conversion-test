@@ -246,6 +246,66 @@ export interface HomeAppLayerContent {
   sliderArrowRight: { primary: string; secondary: string };
 }
 
+/** A category tag displayed on blog list items */
+export interface HomeBlogShowcaseCategoryTag {
+  /** Display label for the category (e.g. "Trends", "Business") */
+  label: string;
+  /** CSS background color for the tag container */
+  backgroundColor: string;
+  /** CSS text color for the tag label */
+  textColor: string;
+}
+
+/** The featured (large) blog post displayed on the left side */
+export interface HomeBlogShowcaseFeaturedPost {
+  /** Unique identifier for the post */
+  id: string;
+  /** URL to the blog post detail page */
+  href: string;
+  /** Featured image displayed prominently */
+  image: ImageContent;
+  /** Publication date displayed above the title */
+  date: string;
+  /** Blog post title */
+  title: string;
+  /** Author's display name */
+  authorName: string;
+  /** Author's job title or role */
+  authorRole: string;
+  /** Author's avatar/photo image */
+  authorImage: ImageContent;
+}
+
+/** A blog list item displayed in the right-side column */
+export interface HomeBlogShowcaseListPost {
+  /** Unique identifier for the post */
+  id: string;
+  /** URL to the blog post detail page */
+  href: string;
+  /** Category tag with custom colors */
+  category: HomeBlogShowcaseCategoryTag;
+  /** Blog post title */
+  title: string;
+  /** Author's display name */
+  authorName: string;
+  /** Author's job title or role */
+  authorRole: string;
+}
+
+/** Content for the "Where data meets Imagination" blog showcase section */
+export interface HomeBlogShowcaseContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** Path to the arrow icon used in the "Read more" button */
+  readMoreArrowIcon: string;
+  /** The featured (large) blog post on the left */
+  featuredPost: HomeBlogShowcaseFeaturedPost;
+  /** Array of blog list items displayed on the right */
+  listPosts: HomeBlogShowcaseListPost[];
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
@@ -255,4 +315,5 @@ export interface HomeContent {
   collectedData: HomeCollectedDataContent;
   automation: HomeAutomationContent;
   appLayer: HomeAppLayerContent;
+  blogShowcase: HomeBlogShowcaseContent;
 }

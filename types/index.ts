@@ -20,6 +20,10 @@ export type {
   HomeAppLayerMarqueeRow,
   HomeAppLayerTestimonial,
   HomeAppLayerContent,
+  HomeBlogShowcaseCategoryTag,
+  HomeBlogShowcaseFeaturedPost,
+  HomeBlogShowcaseListPost,
+  HomeBlogShowcaseContent,
 } from './content';
 export type {
   NavDropdownItem,

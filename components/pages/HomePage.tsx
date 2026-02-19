@@ -6,6 +6,7 @@ import HomeDevCloud from '@/components/organisms/HomeDevCloud';
 import HomeCollectedData from '@/components/organisms/HomeCollectedData';
 import HomeAutomation from '@/components/organisms/HomeAutomation';
 import HomeAppLayer from '@/components/organisms/HomeAppLayer';
+import HomeBlogShowcase from '@/components/organisms/HomeBlogShowcase';
 import type { HomeContent } from '@/types/content';
 
 interface HomePageProps {
@@ -36,6 +37,7 @@ export default function HomePage({ content }: HomePageProps) {
       <HomeAutomation content={content.automation} />
       <HomeSectionDivider content={content.sectionDivider} />
       <HomeAppLayer content={content.appLayer} />
+      <HomeBlogShowcase content={content.blogShowcase} />
       {/* Additional page sections will be added here as they are converted */}
     </>
   );

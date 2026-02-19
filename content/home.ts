@@ -229,6 +229,223 @@ export const homeContent: HomeContent = {
       },
     ],
   },
+  appLayer: {
+    headingPrefix: 'Build on the app layer for your ', // TODO:CONTENT - Replace with client heading
+    headingHighlight: 'business today', // TODO:CONTENT - Replace with client highlight text
+    subheading:
+      'Delivers results in less than 1 second, fast for real-time agents', // TODO:CONTENT - Replace with client subheading
+    marqueeRows: [
+      {
+        variant: false,
+        items: [
+          {
+            id: 'lead-finder-1',
+            icon: '/images/home/app-icon-01.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-2',
+            icon: '/images/home/app-icon-02.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-1',
+            icon: '/images/home/app-icon-04.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'bug-report',
+            icon: '/images/home/app-icon-03.svg',
+            alt: 'Bug Report',
+            label: 'Bug Report', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'confirmation',
+            icon: '/images/home/app-icon-05.svg',
+            alt: 'Confirmation',
+            label: 'Confirmation', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'user-onboard',
+            icon: '/images/home/app-icon-06.svg',
+            alt: 'User Onboard',
+            label: 'User Onboard', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-2',
+            icon: '/images/home/app-icon-08.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-3',
+            icon: '/images/home/app-icon-07.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+        ],
+      },
+      {
+        variant: true,
+        items: [
+          {
+            id: 'lead-finder-4',
+            icon: '/images/home/app-icon-01.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-5',
+            icon: '/images/home/app-icon-02.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-3',
+            icon: '/images/home/app-icon-04.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'bug-report-2',
+            icon: '/images/home/app-icon-03.svg',
+            alt: 'Bug Report',
+            label: 'Bug Report', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'confirmation-2',
+            icon: '/images/home/app-icon-05.svg',
+            alt: 'Confirmation',
+            label: 'Confirmation', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'user-onboard-2',
+            icon: '/images/home/app-icon-06.svg',
+            alt: 'User Onboard',
+            label: 'User Onboard', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-4',
+            icon: '/images/home/app-icon-08.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-6',
+            icon: '/images/home/app-icon-07.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+        ],
+      },
+      {
+        variant: false,
+        items: [
+          {
+            id: 'lead-finder-7',
+            icon: '/images/home/app-icon-01.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-8',
+            icon: '/images/home/app-icon-02.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-5',
+            icon: '/images/home/app-icon-04.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'bug-report-3',
+            icon: '/images/home/app-icon-03.svg',
+            alt: 'Bug Report',
+            label: 'Bug Report', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'confirmation-3',
+            icon: '/images/home/app-icon-05.svg',
+            alt: 'Confirmation',
+            label: 'Confirmation', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'user-onboard-3',
+            icon: '/images/home/app-icon-06.svg',
+            alt: 'User Onboard',
+            label: 'User Onboard', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'realtor-6',
+            icon: '/images/home/app-icon-08.svg',
+            alt: 'Realtor',
+            label: 'Realtor', // TODO:CONTENT - Replace with client app name
+          },
+          {
+            id: 'lead-finder-9',
+            icon: '/images/home/app-icon-07.svg',
+            alt: 'Lead Finder',
+            label: 'Lead Finder', // TODO:CONTENT - Replace with client app name
+          },
+        ],
+      },
+    ],
+    testimonialHeadingPrefix: 'People love building with ', // TODO:CONTENT - Replace with client testimonial heading
+    testimonialHeadingHighlight: 'Disort', // TODO:CONTENT - Replace with client brand name
+    testimonials: [
+      {
+        id: 'esther-howard',
+        quote:
+          '"TheDisort team ships. I wanted types for their node SDK, and less than an hour later, I got them."', // TODO:CONTENT - Replace with client testimonial quote
+        clientName: 'Esther Howard', // TODO:CONTENT - Replace with client name
+        clientRole: 'Web Designer', // TODO:CONTENT - Replace with client role
+        clientImage: {
+          src: '/images/home/testimonial-esther-howard.avif',
+          alt: 'Smiling man with curly hair, beard, glasses, and a floral shirt against a light background.',
+          width: 48,
+          height: 48,
+        },
+        companyLogo: {
+          src: '/images/home/testimonial-logo-scale.svg',
+          alt: 'Scale company logo', // TODO:CONTENT - Replace with actual company name
+          width: 100,
+          height: 32,
+        },
+      },
+      {
+        id: 'kendra-murasaki',
+        quote:
+          '"Disort\'s platform transformed our data workflow. The team is incredibly responsive, providing solutions faster than we could have hoped for."', // TODO:CONTENT - Replace with client testimonial quote
+        clientName: 'Kendra Murasaki', // TODO:CONTENT - Replace with client name
+        clientRole: 'Data Analyst', // TODO:CONTENT - Replace with client role
+        clientImage: {
+          src: '/images/home/testimonial-kendra-murasaki.avif',
+          alt: 'Man with glasses, beard, and yellow sweater against a blue background.',
+          width: 48,
+          height: 48,
+        },
+        companyLogo: {
+          src: '/images/home/testimonial-logo-overcut.svg',
+          alt: 'Overcut company logo', // TODO:CONTENT - Replace with actual company name
+          width: 100,
+          height: 32,
+        },
+      },
+    ],
+    sliderArrowLeft: {
+      primary: '/images/home/slider-arrow-left-01.svg',
+      secondary: '/images/home/slider-arrow-left-02.svg',
+    },
+    sliderArrowRight: {
+      primary: '/images/home/slider-arrow-right-01.svg',
+      secondary: '/images/home/slider-arrow-right-02.svg',
+    },
+  },
   devCloud: {
     headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
     headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text

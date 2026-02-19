@@ -5,6 +5,7 @@ import HomeSectionDivider from '@/components/organisms/HomeSectionDivider';
 import HomeDevCloud from '@/components/organisms/HomeDevCloud';
 import HomeCollectedData from '@/components/organisms/HomeCollectedData';
 import HomeAutomation from '@/components/organisms/HomeAutomation';
+import HomeAppLayer from '@/components/organisms/HomeAppLayer';
 import type { HomeContent } from '@/types/content';
 
 interface HomePageProps {
@@ -33,6 +34,8 @@ export default function HomePage({ content }: HomePageProps) {
       <HomeDevCloud content={content.devCloud} />
       <HomeCollectedData content={content.collectedData} />
       <HomeAutomation content={content.automation} />
+      <HomeSectionDivider content={content.sectionDivider} />
+      <HomeAppLayer content={content.appLayer} />
       {/* Additional page sections will be added here as they are converted */}
     </>
   );

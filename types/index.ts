@@ -16,6 +16,10 @@ export type {
   HomeAutomationProcessItem,
   HomeAutomationBulletPoint,
   HomeAutomationContent,
+  HomeAppLayerAppItem,
+  HomeAppLayerMarqueeRow,
+  HomeAppLayerTestimonial,
+  HomeAppLayerContent,
 } from './content';
 export type {
   NavDropdownItem,

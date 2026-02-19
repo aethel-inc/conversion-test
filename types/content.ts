@@ -183,6 +183,69 @@ export interface HomeAutomationContent {
   processItems: HomeAutomationProcessItem[];
 }
 
+/** A single app item in the app layer marquee grid */
+export interface HomeAppLayerAppItem {
+  /** Unique identifier for the app */
+  id: string;
+  /** Path to the app icon SVG */
+  icon: string;
+  /** Alt text for the app icon — use the app name for accessibility */
+  alt: string;
+  /** Display label shown beneath the icon */
+  label: string;
+}
+
+/** A single marquee row in the app layer section */
+export interface HomeAppLayerMarqueeRow {
+  /** Whether this row uses the reversed-direction "v1" variant */
+  variant: boolean;
+  /** The app items displayed in this row (duplicated internally for seamless looping) */
+  items: HomeAppLayerAppItem[];
+}
+
+/** A single testimonial in the app layer testimonial slider */
+export interface HomeAppLayerTestimonial {
+  /** Unique identifier for the testimonial */
+  id: string;
+  /** The testimonial quote text */
+  quote: string;
+  /** Client's display name */
+  clientName: string;
+  /** Client's job title or role */
+  clientRole: string;
+  /** Client's avatar/photo image */
+  clientImage: ImageContent;
+  /** Company logo displayed alongside the testimonial */
+  companyLogo: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
+}
+
+/** Content for the "Build on the app layer for your business today" section */
+export interface HomeAppLayerContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading _02 class) */
+  headingHighlight: string;
+  /** Subheading text displayed below the main heading */
+  subheading: string;
+  /** Marquee rows of scrolling app icons */
+  marqueeRows: HomeAppLayerMarqueeRow[];
+  /** Testimonial sub-section heading text before the highlight */
+  testimonialHeadingPrefix: string;
+  /** The highlighted portion of the testimonial heading */
+  testimonialHeadingHighlight: string;
+  /** Array of testimonials displayed in the slider */
+  testimonials: HomeAppLayerTestimonial[];
+  /** Left slider arrow icons (two for hover animation) */
+  sliderArrowLeft: { primary: string; secondary: string };
+  /** Right slider arrow icons (two for hover animation) */
+  sliderArrowRight: { primary: string; secondary: string };
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
@@ -191,4 +254,5 @@ export interface HomeContent {
   devCloud: HomeDevCloudContent;
   collectedData: HomeCollectedDataContent;
   automation: HomeAutomationContent;
+  appLayer: HomeAppLayerContent;
 }

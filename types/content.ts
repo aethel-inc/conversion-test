@@ -53,7 +53,28 @@ export interface HomeHeroContent {
   imageSection: HomeHeroImageSectionContent;
 }
 
+export interface HomeTrustedBrandLogo {
+  /** Path to the brand logo image (SVG or other format) */
+  src: string;
+  /** Alt text describing the brand — use brand name for accessibility */
+  alt: string;
+  /** Intrinsic width of the logo image in pixels */
+  width: number;
+  /** Intrinsic height of the logo image in pixels */
+  height: number;
+}
+
+export interface HomeTrustedBrandsContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** Array of brand logos to display in the scrolling marquee */
+  logos: HomeTrustedBrandLogo[];
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
+  trustedBrands: HomeTrustedBrandsContent;
 }

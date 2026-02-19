@@ -1,5 +1,6 @@
 import { SchemaScript, generateSoftwareApplicationSchema } from '@/lib/seo/schema';
 import HomeHero from '@/components/organisms/HomeHero';
+import HomeTrustedBrands from '@/components/organisms/HomeTrustedBrands';
 import type { HomeContent } from '@/types/content';
 
 interface HomePageProps {
@@ -23,6 +24,7 @@ export default function HomePage({ content }: HomePageProps) {
         })}
       />
       <HomeHero content={content.hero} />
+      <HomeTrustedBrands content={content.trustedBrands} />
       {/* Additional page sections will be added here as they are converted */}
     </>
   );

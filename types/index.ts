@@ -6,6 +6,8 @@ export type {
   HomeHeroTrustedUser,
   HomeHeroStatsContent,
   HomeHeroImageSectionContent,
+  HomeTrustedBrandLogo,
+  HomeTrustedBrandsContent,
 } from './content';
 export type {
   NavDropdownItem,

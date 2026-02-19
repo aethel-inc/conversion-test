@@ -62,4 +62,58 @@ export const homeContent: HomeContent = {
       },
     },
   },
+  trustedBrands: {
+    headingPrefix: 'Trusted by thousands from ', // TODO:CONTENT - Replace with client trust statement
+    headingHighlight: 'leading brands', // TODO:CONTENT - Replace with client highlight text
+    logos: [
+      {
+        src: '/images/home/brand-logo-01.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-03.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-04.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-02.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-06.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-05.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-08.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+      {
+        src: '/images/home/brand-logo-07.svg',
+        alt: 'Brand partner logo', // TODO:CONTENT - Replace with actual brand name
+        width: 200,
+        height: 64,
+      },
+    ],
+  },
 };

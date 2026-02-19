@@ -25,6 +25,8 @@ export type {
   HomeBlogShowcaseListPost,
   HomeBlogShowcaseContent,
   HomeCtaContent,
+  AboutHeroContent,
+  AboutContent,
 } from './content';
 export type {
   NavDropdownItem,

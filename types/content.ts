@@ -334,3 +334,31 @@ export interface HomeContent {
   blogShowcase: HomeBlogShowcaseContent;
   cta: HomeCtaContent;
 }
+
+/* ========================================================================
+ * ABOUT PAGE TYPES
+ * ======================================================================== */
+
+/** Content for the About page hero section */
+export interface AboutHeroContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** CTA button label text */
+  ctaText: string;
+  /** CTA button destination URL */
+  ctaHref: string;
+  /** Left hero image */
+  leftImage: ImageContent;
+  /** Right hero image */
+  rightImage: ImageContent;
+  /** Decorative section divider image displayed below the hero images */
+  sectionDividerImage: ImageContent;
+}
+
+/** Top-level content for the About page */
+export interface AboutContent {
+  meta: PageMeta;
+  hero: AboutHeroContent;
+}

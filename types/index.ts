@@ -11,6 +11,8 @@ export type {
   HomeDevCloudTabItem,
   HomeSectionDividerContent,
   HomeDevCloudContent,
+  HomeCollectedDataItem,
+  HomeCollectedDataContent,
 } from './content';
 export type {
   NavDropdownItem,

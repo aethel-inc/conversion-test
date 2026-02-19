@@ -124,6 +124,45 @@ export const homeContent: HomeContent = {
       height: 24,
     },
   },
+  collectedData: {
+    headingPrefix: 'Build your business by using ', // TODO:CONTENT - Replace with client heading
+    headingHighlight: 'collected data', // TODO:CONTENT - Replace with client highlight text
+    subheading:
+      'From creative tools to customer support, your AI chat.', // TODO:CONTENT - Replace with client subheading
+    buttonArrowIcon: '/images/home/button-arrow-icon.svg',
+    items: [
+      {
+        id: 'ai-workflows',
+        icon: '/images/home/collected-workflow.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title: 'AI Workflows', // TODO:CONTENT - Replace with client feature title
+        description:
+          'Automate advanced workflows with the full building power of Disort. Fast for real-time agents and dynamic apps.', // TODO:CONTENT - Replace with client feature description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+      },
+      {
+        id: 'data-integrate',
+        icon: '/images/home/collected-data.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title: 'Data Integrate', // TODO:CONTENT - Replace with client feature title
+        description:
+          'Automate advanced workflows with the full building power of Disort. Fast for real-time agents and dynamic apps.', // TODO:CONTENT - Replace with client feature description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+      },
+      {
+        id: 'customize-design',
+        icon: '/images/home/collected-design.svg',
+        iconAlt: '', // Decorative icon — empty alt is intentional
+        title: 'Customize Design', // TODO:CONTENT - Replace with client feature title
+        description:
+          'Automate advanced workflows with the full building power of Disort. Fast for real-time agents and dynamic apps.', // TODO:CONTENT - Replace with client feature description
+        ctaText: 'Learn more', // TODO:CONTENT - Replace with client CTA label
+        ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+      },
+    ],
+  },
   devCloud: {
     headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
     headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text

@@ -105,10 +105,43 @@ export interface HomeDevCloudContent {
   tabs: HomeDevCloudTabItem[];
 }
 
+/** A single card/feature item in the "collected data" section */
+export interface HomeCollectedDataItem {
+  /** Unique identifier for the card */
+  id: string;
+  /** Path to the icon SVG displayed at the top of the card */
+  icon: string;
+  /** Alt text for the icon (empty string if decorative) */
+  iconAlt: string;
+  /** Feature title displayed as a heading */
+  title: string;
+  /** Description text below the title */
+  description: string;
+  /** Text label for the CTA link */
+  ctaText: string;
+  /** Destination URL for the CTA link */
+  ctaHref: string;
+}
+
+/** Content for the "Build your business by using collected data" section */
+export interface HomeCollectedDataContent {
+  /** The heading text before the highlighted portion */
+  headingPrefix: string;
+  /** The highlighted portion of the heading (displayed with special-heading class) */
+  headingHighlight: string;
+  /** Subheading text displayed below the main heading */
+  subheading: string;
+  /** Path to the arrow icon used in CTA buttons */
+  buttonArrowIcon: string;
+  /** Array of feature cards displayed in the grid */
+  items: HomeCollectedDataItem[];
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
   trustedBrands: HomeTrustedBrandsContent;
   sectionDivider: HomeSectionDividerContent;
   devCloud: HomeDevCloudContent;
+  collectedData: HomeCollectedDataContent;
 }

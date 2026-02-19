@@ -3,6 +3,7 @@ import HomeHero from '@/components/organisms/HomeHero';
 import HomeTrustedBrands from '@/components/organisms/HomeTrustedBrands';
 import HomeSectionDivider from '@/components/organisms/HomeSectionDivider';
 import HomeDevCloud from '@/components/organisms/HomeDevCloud';
+import HomeCollectedData from '@/components/organisms/HomeCollectedData';
 import type { HomeContent } from '@/types/content';
 
 interface HomePageProps {
@@ -29,6 +30,7 @@ export default function HomePage({ content }: HomePageProps) {
       <HomeTrustedBrands content={content.trustedBrands} />
       <HomeSectionDivider content={content.sectionDivider} />
       <HomeDevCloud content={content.devCloud} />
+      <HomeCollectedData content={content.collectedData} />
       {/* Additional page sections will be added here as they are converted */}
     </>
   );

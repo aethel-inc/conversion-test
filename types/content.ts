@@ -306,6 +306,22 @@ export interface HomeBlogShowcaseContent {
   listPosts: HomeBlogShowcaseListPost[];
 }
 
+/** Content for the "Your future runs on data" CTA section */
+export interface HomeCtaContent {
+  /** Main heading text (e.g. "Your future runs on data let's create it") */
+  heading: string;
+  /** Subheading text below the heading */
+  subheading: string;
+  /** CTA button label text */
+  ctaText: string;
+  /** CTA button destination URL */
+  ctaHref: string;
+  /** Decorative corner border image used at all four corners */
+  borderCornerImage: ImageContent;
+  /** Background SVG image displayed behind the content area */
+  backgroundImage: ImageContent;
+}
+
 export interface HomeContent {
   meta: PageMeta;
   hero: HomeHeroContent;
@@ -316,4 +332,5 @@ export interface HomeContent {
   automation: HomeAutomationContent;
   appLayer: HomeAppLayerContent;
   blogShowcase: HomeBlogShowcaseContent;
+  cta: HomeCtaContent;
 }

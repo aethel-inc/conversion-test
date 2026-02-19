@@ -509,6 +509,25 @@ export const homeContent: HomeContent = {
       },
     ],
   },
+  cta: {
+    heading: "Your future runs on data let\u2019s create it", // TODO:CONTENT - Replace with client CTA heading
+    subheading:
+      "From collection to clarity \u2014 we\u2019ll help you make sense of it all.", // TODO:CONTENT - Replace with client CTA subheading
+    ctaText: 'Get Started Now', // TODO:CONTENT - Replace with client CTA button label
+    ctaHref: '/contact-01', // TODO:CONTENT - Replace with client CTA destination
+    borderCornerImage: {
+      src: '/images/home/border-corner.svg',
+      alt: '', // Decorative corner element — empty alt is intentional
+      width: 16,
+      height: 16,
+    },
+    backgroundImage: {
+      src: '/images/home/cta-section-bg.svg',
+      alt: '', // Decorative background — empty alt is intentional
+      width: 1200,
+      height: 600,
+    },
+  },
   devCloud: {
     headingPrefix: 'The cloud that works for ', // TODO:CONTENT - Replace with client heading
     headingHighlight: 'developers', // TODO:CONTENT - Replace with client highlight text
